@@ -1,4 +1,4 @@
-require('dotenv').config()
+// require('dotenv').config()
 
 const express = require('express');
 const app = express();
@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser')
 
 // Google Auth
 const {OAuth2Client} = require('google-auth-library');
-const CLIENT_ID = '333642631602-h2l1m29lfb5c1d0dta76nvv4so4bjeo4.apps.googleusercontent.com'
+const CLIENT_ID = '823136671916-6635p2i9c1eos71244q6i7u86bgoccv3.apps.googleusercontent.com'
 const client = new OAuth2Client(CLIENT_ID);
 
 

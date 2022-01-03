@@ -10,7 +10,10 @@ const CLIENT_ID = '823136671916-6635p2i9c1eos71244q6i7u86bgoccv3.apps.googleuser
 const client = new OAuth2Client(CLIENT_ID);
 
 
-const PORT = 7000;
+// const PORT = 7000;
+const PORT = process.env.PORT || 7000;
+
+
 
 // Middleware
 
